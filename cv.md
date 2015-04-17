@@ -24,10 +24,11 @@ B.S. of Computer Enginering at UC Santa Cruz 12/2009
 ### Software Engineer
 **VitalConnect Inc., full-time, 12/2013 - present.** VCI is a medical device startup developing a heartrate monitoring patch. Developed new features across embedded, iOS, Android, Linux and Windows platforms. 
 
-* Gained experience working with multiple tight-knit engineering teams in a dynamic startup environment. 
-* Bridged the gap between teams and projects
+* Gained experience working with multiple tight-knit engineering teams in a dynamic startup environment
+* Unified efforts across teams and projects, and gained a deep understanding of integration between firmware, software and mobile code
 * Managed software releases for internal cross-team libraries
-* Developed firmware supporting sensors on our medical device. 
+* Maintained firmware supporting sensors on our medical device, software for our embedded data relay, firmware for our internal test boards, and mobile applications on iOS and Android
+* Converted our source code repositories from SVN to Git
 
 ### Security Consultant
 **SuccessFactors Inc. (SAP Cloud), fixed-term contract, 7/2013 - 11/2013** SuccessFactors is a leader in BizX in the cloud, focused on security and complaince. Maintained network monitoring infrastructure and helped automate the creation of audit reports.
