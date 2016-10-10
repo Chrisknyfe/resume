@@ -1,0 +1,2 @@
+https://jsonresume.org/schema/
+http://please.hackmyresume.com/

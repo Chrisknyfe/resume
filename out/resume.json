@@ -1,0 +1,117 @@
+{
+  "basics": {
+    "name": "Zach Bernal",
+    "location": {
+      "address": "627 9th Ave",
+      "postalCode": "CA 94025",
+      "city": "Menlo Park",
+      "countryCode": "US",
+      "region": "California"
+    },
+    "profiles": []
+  },
+  "work": [
+    {
+      "company": "VitalConnect, Inc.",
+      "website": "http://www.vitalconnect.com/",
+      "position": "Software Engineer",
+      "startDate": "2013-12-02",
+      "endDate": "Present",
+      "summary": "VCI is a medical device startup developing a heartrate monitoring patch. Developed new features across embedded, iOS, Android, Linux and Windows platforms.",
+      "highlights": [
+        "Gained experience working with multiple tight-knit engineering teams in a dynamic startup environment",
+        "Unified efforts across teams and projects, and gained a deep understanding of integration between firmware, software and mobile code",
+        "Managed software releases for internal cross-team libraries",
+        "Maintained firmware supporting sensors on our medical device, software for our embedded data relay, firmware for our internal test boards, and mobile applications on iOS and Android",
+        "Converted our source code repositories from SVN to Git"
+      ]
+    },
+    {
+      "company": "SuccessFactors, Inc. (SAP Cloud)",
+      "website": "https://www.successfactors.com/",
+      "position": "Security Consultant",
+      "startDate": "2013-07-01",
+      "endDate": "2013-11-01",
+      "summary": "SuccessFactors was a leader in BizX in the cloud, focused on security and complaince. Maintained network monitoring infrastructure and helped automate the creation of audit reports.",
+      "highlights": [
+        "Administrated the Tripwire 7.5 and 8.2 and RSA 6.1, 7.1 and 8.0 consoles",
+        "Spearheaded the upgrade to Tripwire 8.2 and RSA 8.0",
+        "Prepared audit-ready reports on our security infrastructure",
+        "Handled penetration tests and remediation of discovered issues"
+      ]
+    },
+    {
+      "company": "Zoran Inc. (acquired by CSR)",
+      "website": "https://en.wikipedia.org/wiki/Zoran_Corporation",
+      "position": "Firmware Engineer",
+      "startDate": "2010-03-01",
+      "endDate": "2013-01-01",
+      "summary": "Zoran was an industry leader in System-On-A-Chip silicon for digital cameras. Supported and enhanced legacy features for their embedded devices in a C/C++/ThreadX RTOS/MIPS Assembly environment.",
+      "highlights": [
+        "Refactored critical image processing hardware driver interfaces to improve code cleanliness and ease of access for applications developers. Proliferated the use of TDD in the development of new features.",
+        "Integrated dual-sensor recording features and bugfixes from older customer branches to mainline to prevent duplication of efforts and to get projects in new markets to release on time",
+        "Worked face-to-face with customer developers to solve critical release-blocking issues for a wide variety of overseas customers in Japan, Taiwan, China, and South Korea",
+        "Developed high-level flow code, critical hardware driver interfaces, and added features to low-level ThreadX operating system calls"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of California, Santa Cruz",
+      "gpa": "4.0",
+      "courses": [
+        "CMPE 118 - Introduction to Mechatronics",
+        "CMPE 123 - Computer Engineering Design Project"
+      ],
+      "startDate": "2005-08-01",
+      "endDate": "2009-12-01",
+      "area": "Computer Engineering",
+      "studyType": "Bachelor"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Firmware",
+      "level": "Master",
+      "keywords": [
+        "Embedded C",
+        "Mips Assembly",
+        "Signal Processing",
+        "ThreadX OS"
+      ]
+    },
+    {
+      "name": "Mobile",
+      "level": "Proficient",
+      "keywords": [
+        "iOS",
+        "Android"
+      ]
+    },
+    {
+      "name": "Devops",
+      "level": "Proficient",
+      "keywords": [
+        "Jenkins",
+        "Build & Release",
+        "Git",
+        "SVN"
+      ]
+    },
+    {
+      "name": "Software Polyglot",
+      "level": "Proficient",
+      "keywords": [
+        "C#",
+        "C++",
+        "Objective C",
+        "C#",
+        "Java",
+        "Python"
+      ]
+    }
+  ],
+  "interests": [],
+  "references": 0,
+  "languages": []
+}
