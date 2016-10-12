@@ -1,0 +1,267 @@
+{
+  "name": "Zach Bernal",
+  "meta": {
+    "format": "FRESH@0.6.0",
+    "version": "0.4.0"
+  },
+  
+  "info": {
+    "label": "Computer Engineer",
+    "characterClass": "Programmer",
+    "brief": "A multi-disciplinary Computer Engineer able to easily transition up and down the technology stack to bring real-world solutions to hardware, firmware, and software projects."
+  },
+  
+  "contact": {
+    "phone": "1-650-575-9242",
+    "email": "zachary.bernal@gmail.com"
+  },
+  
+  "location": {
+    "address": "627 9th Ave",
+    "city": "Menlo Park",
+    "region": "CA",
+    "code": "94025",
+    "country": "US"
+  },
+  "employment": {
+
+    "summary": "6+ years industry IT and software development experience.",
+
+    "history": [
+
+      {
+        "employer": "VitalConnect, Inc.",
+        "url": "http://www.vitalconnect.com/",
+        "position": "Software Engineer",
+        "summary": "VCI is a medical device startup developing a heartrate monitoring patch. Developed new features across embedded, iOS, Android, Linux and Windows platforms.",
+        "start": "2013-12",
+		"end": "Present",
+        "keywords": ["C","C++","C#","Objective C","Java","Python","Matlab","LabVIEW","SVN","Git","Jenkins"],
+        "highlights": [
+		  "Gained experience working with multiple tight-knit engineering teams in a dynamic startup environment",
+		  "Unified efforts across teams and projects, and gained a deep understanding of integration between firmware, software and mobile code",
+		  "Managed software releases for internal cross-team libraries",
+		  "Maintained firmware supporting sensors on our medical device, software for our embedded data relay, firmware for our internal test boards, and mobile applications on iOS and Android",
+		  "Converted our source code repositories from SVN to Git"
+		]
+      },
+
+      {
+        "employer": "SuccessFactors, Inc. (SAP Cloud)",
+        "url": "https://www.successfactors.com/",
+        "position": "Security Consultant",
+        "summary": "SuccessFactors was a leader in BizX in the cloud, focused on security and complaince. Maintained network monitoring infrastructure and helped automate the creation of audit reports.",
+        "start": "2013-07",
+        "end": "2013-11",
+        "keywords": ["Tripwire"],
+        "highlights": [
+		  "Administrated the Tripwire 7.5 and 8.2 and RSA 6.1, 7.1 and 8.0 consoles",
+		  "Spearheaded the upgrade to Tripwire 8.2 and RSA 8.0",
+		  "Prepared audit-ready reports on our security infrastructure",
+		  "Handled penetration tests and remediation of discovered issues"
+		]
+      },
+
+      {
+        "employer": "Zoran Inc. (acquired by CSR)",
+        "position": "Firmware Engineer",
+        "summary": "Zoran was an industry leader in System-On-A-Chip silicon for digital cameras. Supported and enhanced legacy features for their embedded devices in a C/C++/ThreadX RTOS/MIPS Assembly environment.",
+        "start": "2010-03",
+        "end": "2013-01",
+        "keywords": ["C++","ThreadX","RTOS"],
+        "highlights":  [
+		  "Refactored critical image processing hardware driver interfaces to improve code cleanliness and ease of access for applications developers. Proliferated the use of TDD in the development of new features.",
+		  "Integrated dual-sensor recording features and bugfixes from older customer branches to mainline to prevent duplication of efforts and to get projects in new markets to release on time",
+		  "Worked face-to-face with customer developers to solve critical release-blocking issues for a wide variety of overseas customers in Japan, Taiwan, China, and South Korea",
+		  "Developed high-level flow code, critical hardware driver interfaces, and added features to low-level ThreadX operating system calls"
+		]
+      }
+
+    ]
+
+  },
+  
+      "projects": {
+      "type": "array",
+      "additionalItems": true,
+      "description": "The 'projects' section describes the candidate's project history -- not the jobs the candidate has worked but the specific projects and enterprises the candidate has created or been involved in, whether paid or unpaid.",
+      "items": {
+        "type": "object",
+        "additionalProperties": true,
+        "properties": {
+
+          "title": {
+            "type": "string",
+            "description": "Project name or code-name.",
+            "required": true
+          },
+
+          "category": {
+            "type": "string",
+            "description": "Project type: open-source, private, side project, etc."
+          },
+
+          "description": {
+            "type": "string",
+            "description": "Project description or summary."
+          },
+
+          "summary": {
+            "type": "string",
+            "description": "A summary of your achievements and responsibilities on the project."
+          },
+
+          "role": {
+            "type": "string",
+            "description": "Your role on the project: Contributor, Creator, etc."
+          },
+
+          "url": {
+            "type": "string",
+            "description": "Project URL.",
+            "format": "uri"
+          },
+
+          "media": {
+            "type": "array",
+            "additionalItems": false,
+            "description": "Media associated with this project.",
+            "items": {
+              "type": "object",
+              "additionalProperties": true,
+              "properties": {
+                "category": {
+                  "type": "string",
+                  "description": "Media category: image, thumbnail, screenshot, MP3, download, etc.",
+                  "required": true
+                },
+                "name": {
+                  "type": "string",
+                  "description": "Friendly media name."
+                },
+                "url": {
+                  "type": "string",
+                  "description": "Media link, path, or location."
+                }
+              }
+            }
+          },
+
+          "repo": {
+            "type": "string",
+            "description": "Repo URL.",
+            "format": "uri"
+          },
+
+          "start": {
+            "type": "string",
+            "description": "Date your involvement with project began, in YYYY, YYYY-MM, or YYYY-MM-DD format.",
+            "format": "date"
+          },
+
+          "end": {
+            "type": "string",
+            "description": "Date your involvement with project ended, in YYYY, YYYY-MM, or YYYY-MM-DD format.",
+            "format": "date"
+          },
+
+          "highlights": {
+            "type": "array",
+            "description": "Noteworthy project-related achievements and/or highlights.",
+            "additionalItems": false,
+            "items": {
+              "type": "string",
+              "description": "For ex, 'Led 5-person development team, increasing profits by 50% year-over-year'."
+            }
+          },
+
+          "location": {
+            "type": "string",
+            "description": "Freeform location of the job or position, e.g., 'San Francisco, CA' or 'Tokyo'."
+          },
+
+          "keywords": {
+            "type": "array",
+            "description": "Keywords associated with this project.",
+            "additionalItems": false,
+            "items": {
+              "type": "string",
+              "description": "For example, C++, HTML, HIPAA, etc."
+            }
+          }
+        }
+      }
+  },
+  
+  
+  "education": {
+    "summary": "test 1",
+    "level": "test 2",
+    "degree": "test 3",
+    "history": [
+      {
+        "institution": "University of California, Santa Cruz",
+        "title": "BS in Computer Engineering",
+        "url": "https://www.cornell.edu/",
+        "start": "2005-09",
+        "end": "2009-12",
+		"grade": "3.0",
+        "studyType": "BS Computer Engineering",
+        "summary": "Hands-on training in designing every aspect of embedded computing, from circuit design, processor architecture, PCB layout, robotic control, driver firmware, and signal processing.",
+        "curriculum": [
+		  "CMPE 117: Embedded Software",
+		  "CMPE 118: Introduction to Mechatronics",
+		  "CMPE 121: Microprocessor System Design"
+		]
+      }
+    ]
+  },
+  
+  "skills": {
+	"sets": [
+		{
+		"name": "Firmware",
+		"level": "Advanced",
+		"skills": [
+		  "Embedded C",
+		  "Mips Assembly",
+		  "Signal Processing",
+		  "ThreadX OS"
+		]
+	  },
+	  {
+		"name": "Devops",
+		"level": "Advanced",
+		"skills": [
+		  "Jenkins",
+		  "Build and Release",
+		  "Git",
+		  "SVN"
+		]
+	  },
+	  {
+		"name": "Software Polyglot",
+		"level": "Advanced",
+		"skills": [
+		  "C#",
+		  "C++",
+		  "Objective C",
+		  "C#",
+		  "Java",
+		  "Python",
+		  "LabVIEW"
+		]
+	  },
+	  {
+		"name": "Mobile",
+		"level": "Beginner",
+		"skills": [
+		  "iOS",
+		  "Android"
+		]
+	  }
+	]
+  }
+  
+
+}

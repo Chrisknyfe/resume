@@ -7,7 +7,7 @@
     "email": "zachary.bernal@gmail.com",
     "phone": "(650) 575-9242",
     "website": "TODO",
-    "summary": "A multi-disciplinary computer engineer based in Silicon Valley ",
+    "summary": "A multi-disciplinary Computer Engineer able to easily transition up and down the technology stack to bring real-world solutions to hardware, firmware, and software projects.",
     "location": {
       "address": "627 9th Ave",
       "postalCode": "CA 94025",
@@ -67,17 +67,17 @@
     "studyType": "Bachelor",
     "startDate": "2005-08-01",
     "endDate": "2009-12-01",
-    "gpa": "4.0",
     "courses": [
-      "CMPE 118 - Introduction to Mechatronics",
-	  "CMPE 123 - Computer Engineering Design Project"
+	  "CMPE 117: Embedded Software",
+      "CMPE 118: Introduction to Mechatronics",
+	  "CMPE 121: Microprocessor System Design"
     ]
   }],
   "awards": [],
   "publications": [],
   "skills": [{
     "name": "Firmware",
-    "level": "Master",
+    "level": "Advanced",
     "keywords": [
       "Embedded C",
       "Mips Assembly",
@@ -86,16 +86,8 @@
     ]
   },
   {
-    "name": "Mobile",
-    "level": "Proficient",
-    "keywords": [
-      "iOS",
-      "Android"
-    ]
-  },
-  {
     "name": "Devops",
-    "level": "Proficient",
+    "level": "Advanced",
     "keywords": [
       "Jenkins",
       "Build & Release",
@@ -105,7 +97,7 @@
   },
   {
     "name": "Software Polyglot",
-    "level": "Proficient",
+    "level": "Advanced",
     "keywords": [
       "C#",
 	  "C++",
@@ -113,6 +105,14 @@
 	  "C#",
 	  "Java",
 	  "Python"
+    ]
+  },
+  {
+    "name": "Mobile",
+    "level": "Beginner",
+    "keywords": [
+      "iOS",
+      "Android"
     ]
   }],
   "languages": [],

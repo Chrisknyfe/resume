@@ -1,2 +1,24 @@
 https://jsonresume.org/schema/
 http://please.hackmyresume.com/
+npm install jsonresume-theme-onepage
+
+word version is missing my contact info
+box next to firmware box is red, fix it
+add projects and old internships
+fonts should be bigger in employment section
+
+doc isn't showing up the same in libreoffice as it is in word
+
+
+
+master
+advanced
+beginner
+
+
+hackmyresume BUILD resume.json TO out/resume.html
+
+
+
+hackmyresume BUILD resume_fresh.json TO asdf/resume.html -t node_modules/jsonresume-theme-stackoverflow // I like this theme so far
+classy theme might be better. at the very least its nice and bold.
