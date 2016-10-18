@@ -9,8 +9,7 @@ Phone: _(650) 575-9242_
 ## Areas of Strength
 * Debugging and maintaining legacy code
 * Embedded C, C++, MIPS Assembly firmware
-* Robotic Behavioral Control
-* Circuit Design, PCB Layout & Assembly
+* Deep understanding of SVN and GIT source control
 * Web Application Development
 * Software Build and Release
 * Quick, focused learner
@@ -22,11 +21,11 @@ B.S. of Computer Enginering at UC Santa Cruz 12/2009
 ## Experience
 
 ### Software Engineer
-**VitalConnect Inc., full-time, 12/2013 - present.** VCI is a medical device startup developing a heartrate monitoring patch. Developed new features across embedded, iOS, Android, Linux and Windows platforms. 
+**VitalConnect Inc., full-time, 12/2013 - present.** VCI is a medical device startup developing a vitals monitoring patch. Developed new features across embedded ARC, iOS, Android, Linux and Windows platforms. 
 
 * Gained experience working with multiple tight-knit engineering teams in a dynamic startup environment
 * Unified efforts across teams and projects, and gained a deep understanding of integration between firmware, software and mobile code
-* Managed software releases for internal cross-team libraries
+* Managed software releases for production firmware and cross-team libraries
 * Maintained firmware supporting sensors on our medical device, software for our embedded data relay, firmware for our internal test boards, and mobile applications on iOS and Android
 * Converted our source code repositories from SVN to Git
 
