@@ -2,6 +2,9 @@ https://jsonresume.org/schema/
 http://please.hackmyresume.com/
 npm install jsonresume-theme-onepage
 
+right now I consider resume_fresh.json to be the golden source for text and wording,
+	though there are some changes from cv.md I want to bring in.
+
 word version is missing my contact info
 box next to firmware box is red, fix it
 add projects and old internships

@@ -33,7 +33,7 @@
         "employer": "VitalConnect, Inc.",
         "url": "http://www.vitalconnect.com/",
         "position": "Software Engineer",
-        "summary": "VCI is a medical device startup developing a heartrate monitoring patch. Developed new features across embedded, iOS, Android, Linux and Windows platforms.",
+        "summary": "VCI is a medical device startup developing a heart rate monitoring patch. I develop new features across embedded, iOS, Android, Linux and Windows platforms.",
         "start": "2013-12",
 		"end": "Present",
         "keywords": ["C","C++","C#","Objective C","Java","Python","Matlab","LabVIEW","SVN","Git","Jenkins"],
@@ -207,7 +207,7 @@
         "end": "2009-12",
 		"grade": "3.0",
         "studyType": "BS Computer Engineering",
-        "summary": "Hands-on training in designing every aspect of embedded computing, from circuit design, processor architecture, PCB layout, robotic control, driver firmware, and signal processing.",
+        "summary": "Hands-on training in designing and building every aspect of embedded computing, from circuit design, processor architecture, PCB layout, robotic control, driver firmware, and signal processing.",
         "curriculum": [
 		  "CMPE 117: Embedded Software",
 		  "CMPE 118: Introduction to Mechatronics",
@@ -246,7 +246,6 @@
 		  "C#",
 		  "C++",
 		  "Objective C",
-		  "C#",
 		  "Java",
 		  "Python",
 		  "LabVIEW"
